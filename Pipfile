@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+python-dotenv = "*"
+flask-mail = "*"
+appdirs = "==1.4.4"
+virtualenv = "==20.4.2"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
